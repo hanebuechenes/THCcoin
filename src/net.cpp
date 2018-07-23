@@ -323,7 +323,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("KushCoin-ext-ip");
+    RenameThread("THCCoin-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -583,7 +583,7 @@ void CNode::copyStats(CNodeStats &stats)
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("KushCoin-net");
+    RenameThread("THCCoin-net");
 
     try
     {
@@ -939,14 +939,14 @@ void ThreadSocketHandler2(void* parg)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"seed-a.kushcoin.co", "seed-a.kushcoin.co"},
-    {"seed-b.kushcoin.co", "seed-b.kushcoin.co"}
+    {"seed-a.thccoin.co", "seed-a.thccoin.co"},
+    {"seed-b.thccoin.co", "seed-b.thccoin.co"}
 };
 
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("KushCoin-dnsseed");
+    RenameThread("THCCoin-dnsseed");
 
     try
     {
@@ -1075,7 +1075,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("KushCoin-adrdump");
+    RenameThread("THCCoin-adrdump");
 
     try
     {
@@ -1090,7 +1090,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("KushCoin-opencon");
+    RenameThread("THCCoin-opencon");
 
     try
     {
@@ -1265,7 +1265,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("KushCoin-opencon");
+    RenameThread("THCCoin-opencon");
 
     try
     {
@@ -1442,7 +1442,7 @@ void static StartSync(const vector<CNode*> &vNodes) {
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("KushCoin-msghand");
+    RenameThread("THCCoin-msghand");
 
     try
     {
@@ -1601,7 +1601,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. KushCoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. THCCoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1686,7 +1686,7 @@ void static Discover()
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("KushCoin-start");
+    RenameThread("THCCoin-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore

@@ -5,13 +5,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About KushCoin</source>
-        <translation>Про KushCoin</translation>
+        <source>About THCCoin</source>
+        <translation>Про THCCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="56"/>
-        <source>&lt;b&gt;KushCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;KushCoin&lt;/b&gt; версії</translation>
+        <source>&lt;b&gt;THCCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;THCCoin&lt;/b&gt; версії</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -19,12 +19,12 @@
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2015 The KushCoin developers</source>
+Copyright © 2012-2015 The THCCoin developers</source>
         <translation>© 2009-2015 Розробники Bitcoin
 © 2011-2012 Розробники PPCoin
 © 2014 Розробники Peerunity
 © 2014 Розробники EmerCoin
-© 2012-2015 Розробники KushCoin</translation>
+© 2012-2015 Розробники THCCoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
@@ -41,7 +41,7 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your KushCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your THCCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Це ваші адреси для отримання платежів. Ви можете давати різні адреси різним людям, таким чином маючи можливість відслідкувати хто конкретно і скільки вам заплатив.</translation>
     </message>
     <message>
@@ -76,7 +76,7 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="102"/>
-        <source>Sign a message to prove you own a KushCoin address</source>
+        <source>Sign a message to prove you own a THCCoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -86,8 +86,8 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="116"/>
-        <source>Verify a message to ensure it was signed with a specified KushCoin address</source>
-        <translation>Перевірити повідомлення, щоб переконатися, що воно було підписане вказаним адресою KushCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified THCCoin address</source>
+        <translation>Перевірити повідомлення, щоб переконатися, що воно було підписане вказаним адресою THCCoin</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="119"/>
@@ -239,7 +239,7 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="116"/>
-        <source>KushCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>THCCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Новакоін-клієнт буде закрито для завершення процесу шифрування. Пам’ятайте, що шифрування гаманця не може повністю захистити ваші новакоіни від кражі, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -292,8 +292,8 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
-        <source>KushCoin will close now to finish the decryption process. </source>
-        <translation>Зараз KushCoin клієнт буде закрито щоб завершити процес розшифровки.</translation>
+        <source>THCCoin will close now to finish the decryption process. </source>
+        <translation>Зараз THCCoin клієнт буде закрито щоб завершити процес розшифровки.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="189"/>
@@ -311,14 +311,14 @@ Copyright © 2012-2015 The KushCoin developers</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoin.cpp" line="146"/>
-        <source>A fatal error occurred. KushCoin can no longer continue safely and will quit.</source>
-        <translation>Сталася фатальна помилка. Програма зараз закриється, оскільки KushCoin не може продовжувати роботу безпечно.</translation>
+        <source>A fatal error occurred. THCCoin can no longer continue safely and will quit.</source>
+        <translation>Сталася фатальна помилка. Програма зараз закриється, оскільки THCCoin не може продовжувати роботу безпечно.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
         <location filename="../bitcoingui.cpp" line="736"/>
-        <source>KushCoin</source>
-        <translation>KushCoin</translation>
+        <source>THCCoin</source>
+        <translation>THCCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
@@ -342,7 +342,7 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
-        <source>Send coins to a KushCoin address</source>
+        <source>Send coins to a THCCoin address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
@@ -407,13 +407,13 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="303"/>
-        <source>&amp;About KushCoin</source>
-        <translation>П&amp;ро KushCoin</translation>
+        <source>&amp;About THCCoin</source>
+        <translation>П&amp;ро THCCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="304"/>
-        <source>Show information about KushCoin</source>
-        <translation>Показати інформацію про KushCoin</translation>
+        <source>Show information about THCCoin</source>
+        <translation>Показати інформацію про THCCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="307"/>
@@ -433,8 +433,8 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="314"/>
-        <source>Modify configuration options for KushCoin</source>
-        <translation>Редагувати параметри KushCoin</translation>
+        <source>Modify configuration options for THCCoin</source>
+        <translation>Редагувати параметри THCCoin</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="316"/>
@@ -498,8 +498,8 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="329"/>
-        <source>Sign messages with your KushCoin addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою KushCoin-адресою</translation>
+        <source>Sign messages with your THCCoin addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою THCCoin-адресою</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="330"/>
@@ -508,8 +508,8 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="331"/>
-        <source>Verify messages to ensure they were signed with specified KushCoin addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною KushCoin-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified THCCoin addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною THCCoin-адресою</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="332"/>
@@ -518,7 +518,7 @@ Copyright © 2012-2015 The KushCoin developers</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="333"/>
-        <source>Second auth with your KushCoin addresses</source>
+        <source>Second auth with your THCCoin addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -610,16 +610,16 @@ Copyright © 2012-2015 The KushCoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="445"/>
         <location filename="../bitcoingui.cpp" line="513"/>
-        <source>KushCoin client</source>
-        <translation>KushCoin клієнт</translation>
+        <source>THCCoin client</source>
+        <translation>THCCoin клієнт</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="586"/>
-        <source>%n active connection(s) to KushCoin network</source>
+        <source>%n active connection(s) to THCCoin network</source>
         <translation>
-            <numerusform>%n активне з&apos;єднання з мережею KushCoin</numerusform>
-            <numerusform>%n активних з&apos;єднань з мережею KushCoin</numerusform>
-            <numerusform>%n активних з&apos;єднань з мережею KushCoin</numerusform>
+            <numerusform>%n активне з&apos;єднання з мережею THCCoin</numerusform>
+            <numerusform>%n активних з&apos;єднань з мережею THCCoin</numerusform>
+            <numerusform>%n активних з&apos;єднань з мережею THCCoin</numerusform>
         </translation>
     </message>
     <message>
@@ -793,8 +793,8 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="982"/>
         <location filename="../bitcoingui.cpp" line="997"/>
-        <source>URI can not be parsed! This can be caused by an invalid KushCoin address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною KushCoin-адресою, чи невірними параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid THCCoin address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною THCCoin-адресою, чи невірними параметрами URI.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
@@ -932,8 +932,8 @@ Some or all keys from:
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>0.00 KUSH</source>
-        <translation type="obsolete">0.00 KUSH</translation>
+        <source>0.00 THC</source>
+        <translation type="obsolete">0.00 THC</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="157"/>
@@ -1236,8 +1236,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="103"/>
-        <source>The entered address &quot;%1&quot; is not a valid KushCoin address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі KushCoin</translation>
+        <source>The entered address &quot;%1&quot; is not a valid THCCoin address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі THCCoin</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="108"/>
@@ -1288,8 +1288,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="476"/>
         <location filename="../guiutil.cpp" line="488"/>
-        <source>KushCoin-Qt</source>
-        <translation>KushCoin-Qt</translation>
+        <source>THCCoin-Qt</source>
+        <translation>THCCoin-Qt</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="476"/>
@@ -1336,17 +1336,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../forms/intro.ui" line="23"/>
-        <source>Welcome to KushCoin-qt.</source>
+        <source>Welcome to THCCoin-qt.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="49"/>
-        <source>As this is the first time the program is launched, you can choose where KushCoin-qt will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where THCCoin-qt will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../forms/intro.ui" line="59"/>
-        <source>KushCoin-qt will download and store a copy of the KushCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>THCCoin-qt will download and store a copy of the THCCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1361,7 +1361,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../intro.cpp" line="184"/>
-        <source>KushCoin-qt</source>
+        <source>THCCoin-qt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1793,8 +1793,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <translation type="obsolete">123.456</translation>
     </message>
     <message>
-        <source>KUSH</source>
-        <translation type="obsolete">KUSH</translation>
+        <source>THC</source>
+        <translation type="obsolete">THC</translation>
     </message>
     <message>
         <location filename="../forms/multisigdialog.ui" line="413"/>
@@ -1903,13 +1903,13 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="522"/>
-        <source>The fee of the transaction (%1 KUSH) is smaller than the expected fee (%2 KUSH). Do you want to send the transaction anyway?</source>
-        <translation>Комісія за транзакцію (%1 KUSH) менше, ніж очікувана комісія (%2 KUSH). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
+        <source>The fee of the transaction (%1 THC) is smaller than the expected fee (%2 THC). Do you want to send the transaction anyway?</source>
+        <translation>Комісія за транзакцію (%1 THC) менше, ніж очікувана комісія (%2 THC). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
     </message>
     <message>
         <location filename="../multisigdialog.cpp" line="528"/>
-        <source>The fee of the transaction (%1 KUSH) is bigger than the expected fee (%2 KUSH). Do you want to send the transaction anyway?</source>
-        <translation>Комісія за транзакцію (%1 KUSH) більша, ніж очікувана комісія (%2 KUSH). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
+        <source>The fee of the transaction (%1 THC) is bigger than the expected fee (%2 THC). Do you want to send the transaction anyway?</source>
+        <translation>Комісія за транзакцію (%1 THC) більша, ніж очікувана комісія (%2 THC). Чи бажаєте ви здійснити транзакцію в будь-якому випадку?</translation>
     </message>
 </context>
 <context>
@@ -1984,12 +1984,12 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="86"/>
-        <source>Automatically start KushCoin after logging in to the system.</source>
+        <source>Automatically start THCCoin after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="89"/>
-        <source>&amp;Start KushCoin on system login</source>
+        <source>&amp;Start THCCoin on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -2009,7 +2009,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="136"/>
-        <source>Connect to the KushCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the THCCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Підключення до мережі через SOCKS5 проксі (напр. при підключенні через Tor).</translation>
     </message>
     <message>
@@ -2109,8 +2109,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="414"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting KushCoin.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску KushCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting THCCoin.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску THCCoin.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="425"/>
@@ -2124,8 +2124,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="447"/>
-        <source>Whether to show KushCoin addresses in the transaction list or not.</source>
-        <translation>Відображати адреси KushCoin у списку транзакцій чи ні.</translation>
+        <source>Whether to show THCCoin addresses in the transaction list or not.</source>
+        <translation>Відображати адреси THCCoin у списку транзакцій чи ні.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="450"/>
@@ -2186,8 +2186,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../optionsdialog.cpp" line="249"/>
         <location filename="../optionsdialog.cpp" line="258"/>
         <location filename="../optionsdialog.cpp" line="267"/>
-        <source>This setting will take effect after restarting KushCoin.</source>
-        <translation>Цей параметр набуде чинності після перезавантаження KushCoin.</translation>
+        <source>This setting will take effect after restarting THCCoin.</source>
+        <translation>Цей параметр набуде чинності після перезавантаження THCCoin.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="297"/>
@@ -2210,8 +2210,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/overviewpage.ui" line="46"/>
         <location filename="../forms/overviewpage.ui" line="365"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the KushCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Інформація, що відображається може бути застарілою. Ваш гаманець автоматично синхронізується з мережею KushCoin після встановлення з&apos;єднання, але цей процес ще не завершений.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the THCCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Інформація, що відображається може бути застарілою. Ваш гаманець автоматично синхронізується з мережею THCCoin після встановлення з&apos;єднання, але цей процес ще не завершений.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="225"/>
@@ -2311,18 +2311,18 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>QObject</name>
     <message>
         <location filename="../bitcoinunits.cpp" line="48"/>
-        <source>KushCoins</source>
-        <translation>KushCoins</translation>
+        <source>THCCoins</source>
+        <translation>THCCoins</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="49"/>
-        <source>Milli-KushCoins (1 / 1,000)</source>
-        <translation>Milli-KushCoins (1 / 1,000)</translation>
+        <source>Milli-THCCoins (1 / 1,000)</source>
+        <translation>Milli-THCCoins (1 / 1,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="50"/>
-        <source>Micro-KushCoins (1 / 1,000,000)</source>
-        <translation>Micro-KushCoins (1 / 1,000,000)</translation>
+        <source>Micro-THCCoins (1 / 1,000,000)</source>
+        <translation>Micro-THCCoins (1 / 1,000,000)</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="185"/>
@@ -2422,8 +2422,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>KushCoin - Debug window</source>
-        <translation>KushCoin - Вікно відладки</translation>
+        <source>THCCoin - Debug window</source>
+        <translation>THCCoin - Вікно відладки</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
@@ -2462,8 +2462,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="95"/>
-        <source>Open the KushCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрийте файл журналу відладки KushCoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the THCCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте файл журналу відладки THCCoin з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="98"/>
@@ -2477,8 +2477,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="147"/>
-        <source>Show the KushCoin-Qt help message to get a list with possible KushCoin command-line options.</source>
-        <translation>Показати довідку KushCoin-Qt для отримання переліку можливих параметрів командного рядка.</translation>
+        <source>Show the THCCoin-Qt help message to get a list with possible THCCoin command-line options.</source>
+        <translation>Показати довідку THCCoin-Qt для отримання переліку можливих параметрів командного рядка.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="150"/>
@@ -2542,8 +2542,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="383"/>
-        <source>KushCoin Core</source>
-        <translation>Ядро KushCoin</translation>
+        <source>THCCoin Core</source>
+        <translation>Ядро THCCoin</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="406"/>
@@ -2552,8 +2552,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="426"/>
-        <source>Open the KushCoin configuration file from the current data directory.</source>
-        <translation>Відкрийте файл конфігурації KushCoin з поточного каталогу даних.</translation>
+        <source>Open the THCCoin configuration file from the current data directory.</source>
+        <translation>Відкрийте файл конфігурації THCCoin з поточного каталогу даних.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="429"/>
@@ -2597,8 +2597,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="325"/>
-        <source>Welcome to the KushCoin RPC console.</source>
-        <translation>Вітаємо у консолі KushCoin RPC.</translation>
+        <source>Welcome to the THCCoin RPC console.</source>
+        <translation>Вітаємо у консолі THCCoin RPC.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="326"/>
@@ -2702,7 +2702,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this KushCoin address</source>
+        <source>Sign the message to prove you own this THCCoin address</source>
         <translation type="obsolete">Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2722,8 +2722,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="29"/>
-        <source>Enter a KushCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation type="unfinished">Введіть адресу KushCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a THCCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation type="unfinished">Введіть адресу THCCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="30"/>
@@ -2826,8 +2826,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>0.00 KUSH</source>
-        <translation type="obsolete">0.00 KUSH</translation>
+        <source>0.00 THC</source>
+        <translation type="obsolete">0.00 THC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="337"/>
@@ -2915,8 +2915,8 @@ Reduce the number of addresses involved in the address creation.</source>
         <translation>Баланс:</translation>
     </message>
     <message>
-        <source>123.456 KUSH</source>
-        <translation type="obsolete">123.456 KUSH</translation>
+        <source>123.456 THC</source>
+        <translation type="obsolete">123.456 THC</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="772"/>
@@ -2930,8 +2930,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="42"/>
-        <source>Enter a KushCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введіть адресу KushCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a THCCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введіть адресу THCCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="56"/>
@@ -3090,8 +3090,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a KushCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введіть адресу KushCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a THCCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введіть адресу THCCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
 </context>
 <context>
@@ -3151,7 +3151,7 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="148"/>
-        <source>Sign the message to prove you own this KushCoin address</source>
+        <source>Sign the message to prove you own this THCCoin address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -3183,8 +3183,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="294"/>
-        <source>Verify the message to ensure it was signed with the specified KushCoin address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною KushCoin-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified THCCoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною THCCoin-адресою</translation>
     </message>
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="311"/>
@@ -3194,8 +3194,8 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="29"/>
         <location filename="../signverifymessagedialog.cpp" line="32"/>
-        <source>Enter a KushCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
-        <translation>Введіть адресу KushCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
+        <source>Enter a THCCoin address (e.g. 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</source>
+        <translation>Введіть адресу THCCoin (наприклад 4Zo1ga6xuKuQ7JV7M9rGDoxdbYwV5zgQJ5)</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="30"/>
@@ -3204,8 +3204,8 @@ Reduce the number of addresses involved in the address creation.</source>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="33"/>
-        <source>Enter KushCoin signature</source>
-        <translation>Введіть підпис KushCoin</translation>
+        <source>Enter THCCoin signature</source>
+        <translation>Введіть підпис THCCoin</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="115"/>
@@ -3795,7 +3795,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=KushCoinrpc
+rpcuser=THCCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 If the file does not exist, create it with owner-readable-only file permissions.
@@ -3803,7 +3803,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>%s, ви повинні встановити rpcpassword в файлі конфігурації:
 %s
 Рекомендується використати такий випадковий пароль:
-rpcuser=KushCoinrpc
+rpcuser=THCCoinrpc
 rpcpassword=%s
 (ви не повинні пам&apos;ятати цей пароль)
 Ім’я користувача та пароль ПОВИННІ бути різними.
@@ -3828,8 +3828,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="26"/>
-        <source>Cannot obtain a lock on data directory %s.  KushCoin is probably already running.</source>
-        <translation>Не вдалося встановити блокування на каталог даних %s. KushCoin, ймовірно, вже запущений.</translation>
+        <source>Cannot obtain a lock on data directory %s.  THCCoin is probably already running.</source>
+        <translation>Не вдалося встановити блокування на каталог даних %s. THCCoin, ймовірно, вже запущений.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="29"/>
@@ -3878,8 +3878,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
-        <source>Unable to bind to %s on this computer. KushCoin is probably already running.</source>
-        <translation>Неможливо прив&apos;язатися до %s на цьому комп&apos;ютері. Можливо, KushCoin вже запущено.</translation>
+        <source>Unable to bind to %s on this computer. THCCoin is probably already running.</source>
+        <translation>Неможливо прив&apos;язатися до %s на цьому комп&apos;ютері. Можливо, THCCoin вже запущено.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="56"/>
@@ -3888,8 +3888,8 @@ rpcpassword=%s
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong KushCoin will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&amp;apos;ютері. Якщо ваш годинник йде неправильно, KushCoin може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong THCCoin will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&amp;apos;ютері. Якщо ваш годинник йде неправильно, THCCoin може працювати некоректно.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
@@ -4019,8 +4019,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of KushCoin</source>
-        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії KushCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of THCCoin</source>
+        <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії THCCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -4166,13 +4166,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
-        <source>KushCoin version</source>
-        <translation>KushCoin версії</translation>
+        <source>THCCoin version</source>
+        <translation>THCCoin версії</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
-        <source>KushCoin</source>
-        <translation>KushCoin</translation>
+        <source>THCCoin</source>
+        <translation>THCCoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
@@ -4235,7 +4235,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
-        <source>Send command to -server or kushcoind</source>
+        <source>Send command to -server or thccoind</source>
         <translation>Відправити команду серверу -server чи демону
 </translation>
     </message>
@@ -4305,8 +4305,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="150"/>
-        <source>Specify configuration file (default: kushcoin.conf)</source>
-        <translation>Вкажіть файл конфігурації (за промовчуванням: kushcoin.conf)
+        <source>Specify configuration file (default: thccoin.conf)</source>
+        <translation>Вкажіть файл конфігурації (за промовчуванням: thccoin.conf)
 </translation>
     </message>
     <message>
@@ -4322,8 +4322,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="153"/>
-        <source>Specify pid file (default: kushcoind.pid)</source>
-        <translation>Вкажіть pid-файл (за промовчуванням: kushcoind.pid)
+        <source>Specify pid file (default: thccoind.pid)</source>
+        <translation>Вкажіть pid-файл (за промовчуванням: thccoind.pid)
 </translation>
     </message>
     <message>
@@ -4409,8 +4409,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="171"/>
-        <source>Wallet needed to be rewritten: restart KushCoin to complete</source>
-        <translation>Потрібно перезаписати гаманець: перезапустіть KushCoin для завершення</translation>
+        <source>Wallet needed to be rewritten: restart THCCoin to complete</source>
+        <translation>Потрібно перезаписати гаманець: перезапустіть THCCoin для завершення</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="172"/>

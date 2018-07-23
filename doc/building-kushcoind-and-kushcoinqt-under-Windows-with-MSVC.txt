@@ -95,10 +95,10 @@ buildqt64.bat
 (Если у вас английская версия, то это выглядит так: Tools->Options->Text Editor->All Languages->Tabs и поставьте флажок "Insert Spaces" вместо "Keep Tabs".)
 
 3.1 Скачиваем исходники
--Зайдите на сайт https://github.com/kushcoin-project/kushcoin 
+-Зайдите на сайт https://github.com/thccoin-project/thccoin 
 -Нажмите Download ZIP
--Распакуйте kushcoin-master.zip в C:\MyProjects
--переименуйте kushcoin-master в Kushcoin
+-Распакуйте thccoin-master.zip в C:\MyProjects
+-переименуйте thccoin-master в Kushcoin
 
 3.2 Компиляция
 -Откройте Microsoft Visual Studio 2012

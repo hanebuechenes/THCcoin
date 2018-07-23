@@ -101,7 +101,7 @@ OBJS= \
     obj/kernel.o \
     obj/kernel_worker.o
 
-all: kushcoind.exe
+all: thccoind.exe
 
 #
 # LevelDB support
@@ -167,11 +167,11 @@ endif
 obj/%.o: %.cpp $(HEADERS)
 	g++ -c $(CFLAGS) -o $@ $<
 
-kushcoind.exe: $(OBJS:obj/%=obj/%)
+thccoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
-	-del /Q kushcoind
+	-del /Q thccoind
 	-del /Q obj\*
 	-del /Q crypto\scrypt\asm\obj\*
 	-del /Q crypto\sha2\asm\obj\*

@@ -18,16 +18,16 @@ Install dependencies:
 
 Get the source:
 
-    git clone https://github.com/kushcoin-project/kushcoin.git
+    git clone https://github.com/thccoin-project/thccoin.git
 
-To compile `kushcoind` under linux:
+To compile `thccoind` under linux:
 
-    cd kushcoin/src/
+    cd thccoin/src/
     make -f makefile.unix USE_O3=1 USE_ASM=1 USE_LEVELDB=1
 
-To compile `kushcoin-qt` under linux
+To compile `thccoin-qt` under linux
 
-    cd kushcoin
+    cd thccoin
     qmake USE_O3=1 USE_ASM=1 USE_LEVELDB=1
     make
 

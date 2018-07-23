@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "KushCoin"
-            VALUE "FileDescription",    "KushCoin-Qt (OSS GUI client for KushCoin)"
+            VALUE "CompanyName",        "THCCoin"
+            VALUE "FileDescription",    "THCCoin-Qt (OSS GUI client for THCCoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "KushCoin-qt"
-            VALUE "LegalCopyright",     "2009-2012 The Bitcoin developers, 2012-2014 The KushCoin & PPCoin developers"
+            VALUE "InternalName",       "THCCoin-qt"
+            VALUE "LegalCopyright",     "2009-2012 The Bitcoin developers, 2012-2014 The THCCoin & PPCoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "KushCoin-qt.exe"
-            VALUE "ProductName",        "KushCoin-Qt"
+            VALUE "OriginalFilename",   "THCCoin-qt.exe"
+            VALUE "ProductName",        "THCCoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -1,4 +1,4 @@
-// Copyright (c) 2013 KushCoin Developers
+// Copyright (c) 2013 THCCoin Developers
 
 #include <string.h>
 #include "pbkdf2.h"

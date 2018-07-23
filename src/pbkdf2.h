@@ -1,4 +1,4 @@
-// Copyright (c) 2013 KushCoin Developers
+// Copyright (c) 2013 THCCoin Developers
 
 #ifndef PBKDF2_H
 #define PBKDF2_H

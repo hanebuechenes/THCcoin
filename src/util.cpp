@@ -1047,7 +1047,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "KushCoin";
+    const char* pszModule = "THCCoin";
 #endif
     if (pex)
         return strprintf(
@@ -1096,13 +1096,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\KushCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\KushCoin
-    // Mac: ~/Library/Application Support/KushCoin
-    // Unix: ~/.kushcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\THCCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\THCCoin
+    // Mac: ~/Library/Application Support/THCCoin
+    // Unix: ~/.thccoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "KushCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "THCCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1114,10 +1114,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "KushCoin";
+    return pathRet / "THCCoin";
 #else
     // Unix
-    return pathRet / ".kushcoin";
+    return pathRet / ".thccoin";
 #endif
 #endif
 }
@@ -1192,7 +1192,7 @@ void createConf()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "kushcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "thccoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1228,7 +1228,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "kushcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "thccoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1387,10 +1387,10 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong KushCoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong THCCoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("KushCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("THCCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

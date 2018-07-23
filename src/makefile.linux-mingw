@@ -111,7 +111,7 @@ OBJS= \
     obj/kernel.o \
     obj/kernel_worker.o
 
-all: kushcoind.exe
+all: thccoind.exe
 
 #
 # LevelDB support
@@ -199,12 +199,12 @@ obj/%.o: %.c
 obj/%.o: %.cpp $(HEADERS)
 	$(CXX) -c $(CFLAGS) -o $@ $<
 
-kushcoind.exe: $(OBJS:obj/%=obj/%)
+thccoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) -lshlwapi
-	$(STRIP) kushcoind.exe
+	$(STRIP) thccoind.exe
 
 clean:
-	-rm -f kushcoind.exe
+	-rm -f thccoind.exe
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/*.d

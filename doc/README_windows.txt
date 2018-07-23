@@ -1,4 +1,4 @@
-KushCoin
+THCCoin
 
 Copyright (c) 2013 NovaCoin Developers
 Copyright (c) 2011-2013 PPCoin Developers
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 -----
-KushCoin is a free open source project derived from Bitcoin, with
+THCCoin is a free open source project derived from Bitcoin, with
 the goal of providing a long-term energy-efficient scrypt-based crypto-currency.
 Built on the foundation of Bitcoin and PPCoin, inkushtions such as proof-of-stake and scrypt
 help further advance the field of crypto-currency.

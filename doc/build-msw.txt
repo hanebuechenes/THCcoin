@@ -1,4 +1,4 @@
-See readme-qt.rst for instructions on building KushCoin QT, the
+See readme-qt.rst for instructions on building THCCoin QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -54,9 +54,9 @@ downloaded boost jam 3.1.18
 cd \boost-1.57.0-mgw
 bjam toolset=gcc --build-type=complete stage
 
-KushCoin
+THCCoin
 -------
 DOS prompt:
-cd \kushcoin\src
+cd \thccoin\src
 mingw32-make -f makefile.mingw
-strip kushcoind.exe
+strip thccoind.exe

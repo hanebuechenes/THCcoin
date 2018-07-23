@@ -1,9 +1,9 @@
-Building KushCoin
+Building THCCoin
 
-See doc/readme-qt.rst for instructions on building KushCoin Qt,
+See doc/readme-qt.rst for instructions on building THCCoin Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of KushCoin.
+implementation of THCCoin.
 
-See doc/build-*.txt for instructions on building kushcoind,
+See doc/build-*.txt for instructions on building thccoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of KushCoin.
+implementation of THCCoin.

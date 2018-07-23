@@ -190,7 +190,7 @@ bool GetIPFromIRC(SOCKET hSocket, string strMyName, CNetAddr& ipRet)
 void ThreadIRCSeed(void* parg)
 {
     // Make this thread recognisable as the IRC seeding thread
-    RenameThread("KushCoin-ircseed");
+    RenameThread("THCCoin-ircseed");
 
     printf("ThreadIRCSeed started\n");
 
@@ -307,10 +307,10 @@ void ThreadIRCSeed2(void* parg)
         }
 
         if (fTestNet) {
-            Send(hSocket, "JOIN #KushCoinTEST2\r");
-            Send(hSocket, "WHO #KushCoinTEST2\r");
+            Send(hSocket, "JOIN #THCCoinTEST2\r");
+            Send(hSocket, "WHO #THCCoinTEST2\r");
         } else {
-            // randomly join #KushCoin00-#KushCoin05
+            // randomly join #THCCoin00-#THCCoin05
             // int channel_number = GetRandInt(5);
 
             // Channel number is always 0 for initial release

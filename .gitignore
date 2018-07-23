@@ -1,5 +1,5 @@
 src/*.exe
-src/kushcoind
+src/thccoind
 src/build.h
 .*.swp
 *.*~*
@@ -8,11 +8,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.kushcoin
+.thccoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-kushcoin-qt
+thccoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
