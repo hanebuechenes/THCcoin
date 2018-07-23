@@ -2785,7 +2785,7 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "THC Genesis";
+        const char* pszTimestamp = "23/07/2018 - THCCoin Genesis - The birth of a wonderful new era!";
         CTransaction txNew;
         txNew.nTime = 1485369076;
         txNew.vin.resize(1);
@@ -2797,7 +2797,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1485369076;
+        block.nTime    = 1532370784;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
         block.nNonce   = 0; // !fTestNet ? 1575379 : 46534;
 		
