@@ -4123,8 +4123,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31544 or testnet: 17778)</source>
-        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 31544 или 17778 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 57574 or testnet: 17778)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 57574 или 17778 в тестовой сети)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>

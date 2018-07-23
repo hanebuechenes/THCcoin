@@ -4131,8 +4131,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31544 or testnet: 17778)</source>
-        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 31544, для тестової мережі: 17778)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 57574 or testnet: 17778)</source>
+        <translation>Чекати на з&apos;єднання на &lt;port&gt; (типово: 57574, для тестової мережі: 17778)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>
