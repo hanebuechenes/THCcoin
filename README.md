@@ -1,4 +1,4 @@
-Kushcoin
+THCCoin
 ========
 
 Installation from source
