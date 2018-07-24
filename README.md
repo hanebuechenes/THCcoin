@@ -33,5 +33,5 @@ To compile `thccoin-qt` under linux
 
 See docs/
 
-RPC Port: 57573
-Network Port: 57574
+RPC Port: 57574
+Network Port: 57573
