@@ -2787,7 +2787,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         const char* pszTimestamp = "23/07/2018 - THCCoin Genesis - The birth of a wonderful new era!";
         CTransaction txNew;
-        txNew.nTime = 1485369076;
+        txNew.nTime = 1532370784;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));

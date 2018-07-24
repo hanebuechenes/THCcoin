@@ -25,7 +25,7 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-			( 0, std::make_pair(hashGenesisBlock, 1485369076) )
+			( 0, std::make_pair(00000dd1264613040ddc37ddfc4124e05308d9b86f478067e0779de5c8d5e9f4, 1485369076) )
     ;
 
     static ListBannedBlocks listBanned =
@@ -36,7 +36,7 @@ namespace Checkpoints
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-			( 0, std::make_pair(hashGenesisBlock, 1485369076) )
+			( 0, std::make_pair(00000dd1264613040ddc37ddfc4124e05308d9b86f478067e0779de5c8d5e9f4, 1485369076) )
         ;
 
     bool CheckHardened(int nHeight, const uint256& hash)
