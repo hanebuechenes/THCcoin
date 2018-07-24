@@ -30,7 +30,7 @@ namespace Checkpoints
 
     static ListBannedBlocks listBanned =
         boost::assign::list_of
-			(uint256("0x") )
+			(uint256("0x0000000000000000000000000000000000000000000000000000000000000000") )
     ;
 
     // TestNet has no checkpoints
