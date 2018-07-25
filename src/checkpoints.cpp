@@ -25,9 +25,8 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-			//( 0, std::make_pair(hashGenesisBlock, 1532370784) )
-			//( 0, uint256("0x") )
-			( 0, std::make_pair(0x, 0) )
+			( 0, std::make_pair(hashGenesisBlock, 1532370784) )
+
 			;
 
     static ListBannedBlocks listBanned =
@@ -38,9 +37,8 @@ namespace Checkpoints
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-			//( 0, std::make_pair(hashGenesisBlock, 1532370784) )
-			( 0, std::make_pair(0x, 0) )
-        ;
+			( 0, std::make_pair(hashGenesisBlockTestNet, 1360105017) )
+;
 
     bool CheckHardened(int nHeight, const uint256& hash)
     {
@@ -48,7 +46,8 @@ namespace Checkpoints
 
         MapCheckpoints::const_iterator i = checkpoints.find(nHeight);
         if (i == checkpoints.end()) return true;
-        return hash == i->second.first;
+        //return hash == i->second.first;
+		return true;
     }
 
     bool CheckBanned(const uint256 &nHash)
@@ -63,7 +62,8 @@ namespace Checkpoints
     {
         MapCheckpoints& checkpoints = (fTestNet ? mapCheckpointsTestnet : mapCheckpoints);
 
-        return checkpoints.rbegin()->first;
+        //return checkpoints.rbegin()->first;
+		return 0;
     }
 
     unsigned int GetLastCheckpointTime()
@@ -82,7 +82,8 @@ namespace Checkpoints
             const uint256& hash = i.second.first;
             std::map<uint256, CBlockIndex*>::const_iterator t = mapBlockIndex.find(hash);
             if (t != mapBlockIndex.end())
-                return t->second;
+                //return t->second;
+				return NULL;
         }
         return NULL;
     }
