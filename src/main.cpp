@@ -2785,9 +2785,9 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "23/07/2018 - THCCoin Genesis - The birth of a wonderful new era!";
+        const char* pszTimestamp = "25/07/2018 - THCCoin Genesis - The birth of a wonderful new era!";
         CTransaction txNew;
-        txNew.nTime = 1532370784;
+        txNew.nTime = 1532526078;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2797,13 +2797,11 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1532370784;
+        block.nTime    = 1532526078;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 270906; // !fTestNet ? 1575379 : 46534;
+        block.nNonce   = 0; // !fTestNet ? 1575379 : 46534;
 		
 		
-        //assert(block.hashMerkleRoot == uint256("0x4eee83a63f64313bdfd3e04ea3633759150e98794a49026b7b9fb64771a4b633"));
-
        if (true && (block.GetHash() != hashGenesisBlock)) {
 
         // This will figure out a valid hash and Nonce if you're
