@@ -2802,7 +2802,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nNonce   = 8641158; // !fTestNet ? 1575379 : 46534;
 		
 		
-       if (true && (block.GetHash() != hashGenesisBlock)) {
+       if (false && (block.GetHash() != hashGenesisBlock)) {
 
         // This will figure out a valid hash and Nonce if you're
         // creating a different genesis block:
@@ -2820,7 +2820,7 @@ bool LoadBlockIndex(bool fAllowNew)
 block.print();
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0c84a523ad28971e5f3194625474aa9b64f05f118a82bfe007222922fc80fe43"));
+        //assert(block.hashMerkleRoot == uint256("0c84a523ad28971e5f3194625474aa9b64f05f118a82bfe007222922fc80fe43"));
         //assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
 assert(block.CheckBlock());
 
